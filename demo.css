@@ -1,5 +1,5 @@
 .items {
-	width: 150px;
+	min-width: 150px;
 	height: 150px;
 	background-color: skyblue;
 	border: .8px solid blue;
@@ -13,4 +13,6 @@
 	display: flex;
 	justify-content: space-between; /* horizontal aligment */
 	align-items: start; /* vertical aligment */
+	align-content: start;
+	flex-wrap: wrap;
 }

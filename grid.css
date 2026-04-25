@@ -1,0 +1,19 @@
+.container{
+	background-color: grey;
+	border: .8px solid black;
+	height: 200vh;
+	display: grid;
+	grid-template-columns: 200px 200px;
+	gap: 20px;
+	justify-items: center;
+	align-items: center;
+	justify-content: start;
+	align-content: end;
+}
+
+.items {
+	width: 100px;
+	height: 100px;
+	background-color: skyblue;
+	border: .8px solid blue;
+}
